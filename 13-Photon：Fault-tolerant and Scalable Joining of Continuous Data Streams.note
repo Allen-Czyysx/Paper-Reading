@@ -1,0 +1,33 @@
+目标: 实时的连续流数据的join.
+
+挑战:
+	a) 任意时刻at-most-once, 实时near-exact, 最终exactly-once.
+	b) 容忍数据中心级别的故障.
+	c) 高可扩展性.
+	d) 低延迟.
+	e) 输入无序.
+	f) pk可能delayed, 导致fk在主表中找不到.
+	g) 在廉价机器上实现.
+
+基于paxos的同步:
+	a) 对每个输入, 所有worker都会尝试join, 因此在各节点间维护一个IdRegistry, join之前必须先检查并添加记录 (相当于"全局"变量, 性能瓶颈).
+	b) IdRegistry需要在数据中心间同步 (paxos); 需要支持read-modify-write事务.
+	c) PaxosDB: fault tolerant key-value in0memory store.
+	d) 节点间网络延迟约100ms, 故在PaxosDB的server端以batch为执行单位, 提高throughput.
+		☆☆☆☆☆
+	e) client按key计算hash, 分页到对应的IdRegistry, 进一步提高throughput (为动态调整页数, 每个请求绑定一个时间戳, 并在PaxosDB上维护一个全局信息, 包含各时间段内使用的hash函数). 
+		☆☆☆☆☆
+
+☆☆☆☆☆
+RPC的超时问题: 将重试的任务交给一个单一的模块 (Dispatcher) 负责, 便于之后的结构设计.
+☆☆☆☆☆
+
+全局唯一的event_id由ServerIP, ProcessID, Timestamp组成, 其中timestamp的全局同步由谷歌的TrueTime API实现.
+
+Joiner losses:
+	a) Joiner向IdRegistry注册时会附带一个token, 之后若收不到IdRegistry反馈则用该token进行重试.
+	b) Joiner在注册完成后发生崩溃的情况: 通过限制每个Joiner发送注册请求的数量来最小化损失; 通过验证输入和输出, 重置IdRegistry中实际没有join的记录, 重新走流程.
+
+EventStore:
+	a) 用于存储接受到的流数据, 供之后的join操作使用.
+	b) cache层是一个主存上的kv数据库, 存储最近的数据; log层负责cache没命中时的查询, 维护一个日志的map (隔几个key维护一个entry用于查询) 来快速获得需要的key所在区间.

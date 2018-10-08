@@ -1,0 +1,17 @@
+1.	discrete CPU-GPU弊端在于: 
+	a) pci-e带宽低, CPU和GPU往往不能同时运行, 限粗粒度的co-processing; 
+	b) 2者的cache分隔开了, 不能reuse, 增加了memory stall.
+
+2.	即使不做任何优化, coupled CPU-GPU也会快很多, 但另一方面限于芯片空间, couple的的GPU比discrete的性能要差.
+
+3.	co-processing机制: 
+	a) off-loading, 将一系列的计算操作分给不同的处理器, 存在under utilized的问题; (PL的特例)↓
+	b) data diving, 将要处理的数据按相同比例分给各个处理器; (PL的特例)↓
+	c) pipelined execution, 对每个算子都计算分配比例.
+
+4.	tradeoffs:
+	a) shared/seperated hash table, 前者cache可reuse, 后者冲突少;
+	b) workload divergence, 一组数据的处理时间取决于最慢的那个, 通过将相似负载的数据分在一组来避免;
+	c) step definitions, 对于计算操作, 细粒度的设计比粗粒度的效果好.
+
+5.	discrete普遍比coupled差, 除data transfer, cache reuse外还有merge的overhead; 类似, shared hash table更好.

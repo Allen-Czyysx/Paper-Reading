@@ -1,0 +1,23 @@
+问题:
+	a) 基本假设是无界的数据在某一时刻会变完整, 有缺陷.
+	b) 需要简单, 强大的工具来针对特定场景权衡correctness, latency, cost.
+	c) 批处理, 微批处理, 流处理在正确性上一致, 需要考虑的其实是latency和cost.
+
+贡献:
+	a)
+	b)
+	c) 将数据处理的逻辑概念与底层物理实现解耦, 提供底层实现方式 (批处理, 微批处理, 流处理) 的选择.
+
+系统中传递的数据结构为(key, value, event_time, window)(如 (k1, v1, 13:02, [13:02, 13:32))), 在session window中会出现window的合并.
+
+单独依赖watermark效果不好, 有时too slow/fast.
+
+pane refinement modes:
+	a) discarding: 将各pane的计算结果拼接起来即可, 无需关注pane内部的数据 (如求和).
+	b) accumulating: 早的pane数据保存在状态集中, 可供后来的pane更新数据.
+	c) accumulating & retracting: 若window被再次启动 (会有新数据), 则需要向下游的算子发出撤回信息.
+
+
+
+
+//TODO punctuation
