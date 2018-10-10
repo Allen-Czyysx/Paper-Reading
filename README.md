@@ -1,8 +1,8 @@
 # Paper-Reading
 ## 2018.10.15
-Venkataraman, S., Panda, A., Ousterhoutrecovery, K., Ghodsi, A., Franklin, M. J., Recht, B., & Stoica, I. (2017). Drizzle: Fast and Adaptable Stream Processing at Scale. Proceedings of the 26th Symposium on Operating Systems Principles - SOSP ’17, 374–389. https://doi.org/10.1145/3132747.3132750  
-  
 Zaharia, M., Das, T., Li, H., Hunter, T., Shenker, S., & Stoica, I. (2013). Discretized Streams: Fault-Tolerant Streaming Computation at Scale. Sosp, (1), 423–438. https://doi.org/10.1145/2517349.2522737  
+  
+Venkataraman, S., Panda, A., Ousterhoutrecovery, K., Ghodsi, A., Franklin, M. J., Recht, B., & Stoica, I. (2017). Drizzle: Fast and Adaptable Stream Processing at Scale. Proceedings of the 26th Symposium on Operating Systems Principles - SOSP ’17, 374–389. https://doi.org/10.1145/3132747.3132750  
 ## 2018.10.8
 Stonebraker, M., Çetintemel, U., & Zdonik, S. (2005). The 8 requirements of real-time stream processing. ACM SIGMOD Record, 34(4), 42–47. https://doi.org/10.1145/1107499.1107504  
 
