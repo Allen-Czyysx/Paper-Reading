@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.10.15
+Jacques-Silva, G., Lei, R., Cheng, L., Jerry Chen, G., Ching, K., Hu, T., … Jaiswal, A. (2018). Providing Streaming Joins as a Service at Facebook. Providing Streaming Joins as a Service at Facebook. PVLDB, 11(12), 1809–1821. https://doi.org/10.14778/3229863.3229869  
+  
 Zaharia, M., Das, T., Li, H., Hunter, T., Shenker, S., & Stoica, I. (2013). Discretized Streams: Fault-Tolerant Streaming Computation at Scale. Sosp, (1), 423–438. https://doi.org/10.1145/2517349.2522737  
   
 Venkataraman, S., Panda, A., Ousterhoutrecovery, K., Ghodsi, A., Franklin, M. J., Recht, B., & Stoica, I. (2017). Drizzle: Fast and Adaptable Stream Processing at Scale. Proceedings of the 26th Symposium on Operating Systems Principles - SOSP ’17, 374–389. https://doi.org/10.1145/3132747.3132750  
