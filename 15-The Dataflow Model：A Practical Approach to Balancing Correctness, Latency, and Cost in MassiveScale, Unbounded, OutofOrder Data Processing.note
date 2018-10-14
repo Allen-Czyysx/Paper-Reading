@@ -4,20 +4,15 @@
 	c) 批处理, 微批处理, 流处理在正确性上一致, 需要考虑的其实是latency和cost.
 
 贡献:
-	a)
-	b)
+	a) 对无边界, 无序的数据源, 允许按数据本身的特征进行窗口计算, 得到基于事件发生时间的有序结果, 并能在准确性、延迟程度和处理成本之间调整.
+	b)  解构数据处理管道的四个相关维度, 使得它们透明, 灵活地组合 (?).
 	c) 将数据处理的逻辑概念与底层物理实现解耦, 提供底层实现方式 (批处理, 微批处理, 流处理) 的选择.
 
-系统中传递的数据结构为(key, value, event_time, window)(如 (k1, v1, 13:02, [13:02, 13:32))), 在session window中会出现window的合并.
+系统中传递的数据结构为 (key, value, event_time, window) (如 (k1, v1, 13:02, [13:02, 13:32))), 在session window中会出现window的合并.
 
-单独依赖watermark效果不好, 有时too slow/fast.
+单独依赖watermark效果不好, 有时too slow/fast. 所以加上触发器 (支持不同模式 ↓ ), 允许使用者处理少量的一部分的记录来快速获得结果, 而不是痴痴地等待最后的一点点数据到来, 并支持逻辑组合来构成复合的触发器.
 
 pane refinement modes:
 	a) discarding: 将各pane的计算结果拼接起来即可, 无需关注pane内部的数据 (如求和).
 	b) accumulating: 早的pane数据保存在状态集中, 可供后来的pane更新数据.
 	c) accumulating & retracting: 若window被再次启动 (会有新数据), 则需要向下游的算子发出撤回信息.
-
-
-
-
-//TODO punctuation
