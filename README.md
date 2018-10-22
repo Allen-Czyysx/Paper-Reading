@@ -1,6 +1,8 @@
 # Paper-Reading
 
 ## 2018.10.25
+Haynes, B., Mazumdar, A., Alaghi, A., Balazinska, M., Ceze, L., & Cheung, A. (2018). LightDB: A DBMS for Virtual Reality Video. Proc. VLDB Endow., 11(10), 1192–1205. https://doi.org/10.14778/3231751.3231768  
+
 Toshniwal, A., Donham, J., Bhagat, N., Mittal, S., Ryaboy, D., Taneja, S., … Fu, M. (2014). Storm@twitter. Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data - SIGMOD ’14, 147–156. https://doi.org/10.1145/2588555.2595641  
 
 Carbone, P., Ewen, S., Haridi, S., Katsifodimos, A., Markl, V., & Tzoumas, K. (2015). Apache Flink: Unified Stream and Batch Processing in a Single Engine. Data Engineering, 36, 28–38. https://doi.org/10.1109/IC2EW.2016.56
