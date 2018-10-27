@@ -1,4 +1,8 @@
 # Paper-Reading
+## 2018.11.1
+Apache Mahout  
+
+Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003). The Google file system. Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles  - SOSP ’03, 29. https://doi.org/10.1145/945449.945450
 
 ## 2018.10.25
 Haynes, B., Mazumdar, A., Alaghi, A., Balazinska, M., Ceze, L., & Cheung, A. (2018). LightDB: A DBMS for Virtual Reality Video. Proc. VLDB Endow., 11(10), 1192–1205. https://doi.org/10.14778/3231751.3231768  
