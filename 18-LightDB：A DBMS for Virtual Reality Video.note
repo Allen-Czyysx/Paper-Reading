@@ -1,0 +1,26 @@
+VR视频摄像: 0.5TB/s.
+
+VR视频的输出需要大量计算.
+
+贡献:
+	a) 引入TLF数据模型来统一各种VAMR数据格式.
+	b) 引入一套TLF上的算子.
+	c) 实现了一个高效的数据库系统.
+
+LightDB对直播视频的处理过程:
+	a) 接收数据, 添加watermark.
+	b) 调整对比度.
+	c) 将结果临时划分, 便于自适应流.
+	d) 将每个部分编码成适合客户端的格式.
+
+算子: 
+	a) selection: select; discretize.
+	b) partitioning: partition.
+	c) merging: union.
+	d) transformation: map; interpolate; subquery.
+	(
+		e) translation; rotation.
+		f) encode; decode.
+		g) scan; store.
+	)
+	
