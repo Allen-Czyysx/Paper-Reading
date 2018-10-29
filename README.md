@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.11.1
+Chu, C.-T., Kim, S. K., Lin, Y.-A., Yu, Y., Bradski, G., Ng, A. Y., & Olukotun, K. (2007). Map-Reduce for Machine Learning on Multicore. Nips, 281–288. https://doi.org/10.1234/12345678  
+
 Apache Mahout  
 
 Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003). The Google file system. Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles  - SOSP ’03, 29. https://doi.org/10.1145/945449.945450
