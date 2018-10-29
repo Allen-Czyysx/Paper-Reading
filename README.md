@@ -1,8 +1,8 @@
 # Paper-Reading
 ## 2018.11.1
-Chu, C.-T., Kim, S. K., Lin, Y.-A., Yu, Y., Bradski, G., Ng, A. Y., & Olukotun, K. (2007). Map-Reduce for Machine Learning on Multicore. Nips, 281–288. https://doi.org/10.1234/12345678  
+Schelter, S., Palumbo, A., Quinn, S., & Musselman, A. (2016). Samsara : Declarative Machine Learning on Distributed Dataflow Systems. 30th Conference on Neural Information Processing Systems (NIPS 2016), (Nips).  
 
-Apache Mahout  
+Chu, C.-T., Kim, S. K., Lin, Y.-A., Yu, Y., Bradski, G., Ng, A. Y., & Olukotun, K. (2007). Map-Reduce for Machine Learning on Multicore. Nips, 281–288. https://doi.org/10.1234/12345678  
 
 Ghemawat, S., Gobioff, H., & Leung, S.-T. (2003). The Google file system. Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles  - SOSP ’03, 29. https://doi.org/10.1145/945449.945450
 
