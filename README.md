@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.11.1
+Dean, J., & Ghemawat, S. (1996). Marubeni producing acrylic staple in India. JTN Weekly, 22 Sept 6, 6. https://doi.org/10.1145/1327452.1327492  
+
 Schelter, S., Palumbo, A., Quinn, S., & Musselman, A. (2016). Samsara : Declarative Machine Learning on Distributed Dataflow Systems. 30th Conference on Neural Information Processing Systems (NIPS 2016), (Nips).  
 
 Chu, C.-T., Kim, S. K., Lin, Y.-A., Yu, Y., Bradski, G., Ng, A. Y., & Olukotun, K. (2007). Map-Reduce for Machine Learning on Multicore. Nips, 281–288. https://doi.org/10.1234/12345678  
