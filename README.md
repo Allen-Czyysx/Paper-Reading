@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.11.1
+Lachmann, M., Szamado, S., & Bergstrom, C. T. (2008, January). MapReduce: Simplified Data Processing on Large Clusters. Communications of the ACM - 50th Anniversary Issue: 1958 - 2008, 51(1), 107–113.  
+
 Dean, J., & Ghemawat, S. (1996). Marubeni producing acrylic staple in India. JTN Weekly, 22 Sept 6, 6. https://doi.org/10.1145/1327452.1327492  
 
 Schelter, S., Palumbo, A., Quinn, S., & Musselman, A. (2016). Samsara : Declarative Machine Learning on Distributed Dataflow Systems. 30th Conference on Neural Information Processing Systems (NIPS 2016), (Nips).  
