@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.11.2
+Zaharia, M., Chowdhury, M., Das, T., Dave, A., Ma, J., Mccauley, M., … Stoica, I. (2012). Resilient Distributed Datasets: A Fault-Tolerant Abstraction for\rIn-Memory Cluster Computing\r\n\n. https://doi.org/10.1111/j.1095-8649.2005.00662.x
+
 Drakonaki, E. E., & Allen, G. M. (2010). Spark: Cluster Computing withWorking Sets Matei. Skeletal Radiology, 39(4), 391–396. https://doi.org/10.1007/s00256-009-0861-0
 
 Lachmann, M., Szamado, S., & Bergstrom, C. T. (2008, January). MapReduce: Simplified Data Processing on Large Clusters. Communications of the ACM - 50th Anniversary Issue: 1958 - 2008, 51(1), 107–113.
