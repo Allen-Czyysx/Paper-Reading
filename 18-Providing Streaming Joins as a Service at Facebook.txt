@@ -1,0 +1,15 @@
+贡献: 
+	a) 基于event time同步流, 从而对新数据的处理, 减少资源开销.
+	b) 更新应用时不丢失对期间数据的处理.
+	c) 一般假设2个做join的流的数据会在很相近的时间内到达, 不符合很多场景; 对于到达时间相差大的情况, 使用大且固定的window会导致资源浪费, 且无法处理delay动态变化的情况. 所以通过估计event time分布, 来提高join的准确性.
+
+右流的window由左流的window计算得到.
+
+join logical plan: 
+	a) slice: 类似于map或partition.
+	b) join: build & probe.
+	c) slice: 其他处理 & 输出结果.
+
+stream同步: 维持left PT + upper boundry of window = right PT (PT, 对event time的估计, F(PT) = 1 - x%), 哪边领先了就停止接收数据, 会缓存额外几分钟的数据来降低暂停的次数.
+
+计算PT: 划分micro-batch, 分别计算PT, 若得到的PT值递增, 则取最近的PT, 否则合并相邻micro-batch, 直至通过. window越大越容易出现不递增的情况, PT就越小.

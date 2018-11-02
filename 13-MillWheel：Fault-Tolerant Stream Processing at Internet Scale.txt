@@ -1,0 +1,18 @@
+目标: 容错性, 灵活性, 可扩展性.
+
+需求: 
+	a) no system-intrinsic barriers to ingesting inputs and providing output data. // TODO
+	b) Persistent state abstractions should be available to user code. // TODO
+	c) 处理乱序数据的能力.
+	d) low watermarks的系统实现. // TODO
+	e) exactly-once delivery of records (幂等). ☆☆☆☆☆
+
+MillWheel结构:
+	a) 由用户自定义的extractor来处理流, 生成后面供计算用的records (key, value, timestamp).
+	b) 数据按key值hash到不同节点上, 对同一个key是线性的, key之间并行.
+	c) low watermarks是估计值, 递增.
+
+容错:
+	a) exactly-once delivery: 发送record会不断重试直至ACKed (确保至少一次); 内存中维护已知record的bloom filter, 检查重复 (确保至多一次).
+	b) strong production: 在生成record后会在发送前做checkpoint (类似redolog), 处理乱序输入下需要回滚的情况.
+	c) weak production: 本身幂等的计算无需strong production, 隔几个computation做一个输入的checkpoint.

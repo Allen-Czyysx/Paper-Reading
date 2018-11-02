@@ -1,0 +1,17 @@
+挑战:
+	a) 如何充分利用GPU和CPU. (核心在于预测performance)
+	b) window大小和滑动极大地影响parallel processing, 当前的引擎很难支持small window sizes and slides.
+	c) data movement between cpu and gpu.
+
+方案:
+	a) 根据past behaviour来决定由哪个processor来执行.
+	b) 将batch size与window size解耦. 对每个query, 每个batch计算所有fragment (延迟不高?), 再与其他batch的结果合并.
+	c) 使用pipeline来让执行任务和数据传输的时间重合在一起.
+
+流处理的并行分为:
+	a) 在不同的query之间并行执行.
+	b) 在同一个query内将数据分块, 各个算子并行执行, 可实现高吞吐率, 弊端主要在于需要高网络带宽来传输数据.(expensive analytics query)
+
+incremental computation: 每个query中, 对每个batch会有一个batch operator来处理所有fragment的计算. 
+
+hybrid lookahead sheduling: 用一个矩阵存储过去每种query在每种processor上的吞吐率, 以此来预测性能.

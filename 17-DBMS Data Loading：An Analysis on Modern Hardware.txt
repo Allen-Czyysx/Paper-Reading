@@ -1,0 +1,11 @@
+1. 数据导入过程：parsing, tokenizing, conversion，tuple creation
+
+2. MonetDB，DBMS-B采用列存，并对存储的数据进行了压缩，压缩的开销对写入性能的影响极大
+
+3. DBMS-A，MonetDB，DBMS-B写入操作与读取操作不能同时进行
+
+4. 传统存储介质下random I/O是瓶颈
+
+5. 数据提供方的存储介质对性能的影响极大
+
+6. 主键的检查往往在导入过程中完成，性能好且数据库无需下线
