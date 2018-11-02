@@ -4,7 +4,7 @@ Zaharia, M., Chowdhury, M., Das, T., Dave, A., Ma, J., Mccauley, M., … Stoica,
 
 Drakonaki, E. E., & Allen, G. M. (2010). Spark: Cluster Computing withWorking Sets Matei. Skeletal Radiology, 39(4), 391–396. https://doi.org/10.1007/s00256-009-0861-0
 
-Lachmann, M., Szamado, S., & Bergstrom, C. T. (2008, January). MapReduce: Simplified Data Processing on Large Clusters. Communications of the ACM - 50th Anniversary Issue: 1958 - 2008, 51(1), 107–113.
+Dean, J., & Ghemawat, S. (2008). MapReduce: Simplified Data Processing on Large Clusters. Communications of the ACM, 51(1), 107. https://doi.org/10.1145/1327452.1327492
 
 Schelter, S., Palumbo, A., Quinn, S., & Musselman, A. (2016). Samsara : Declarative Machine Learning on Distributed Dataflow Systems. 30th Conference on Neural Information Processing Systems (NIPS 2016), (Nips).
 
@@ -37,4 +37,4 @@ He, J., Lu, M., & He, B. (2013). Revisiting Co-Processing for Hash Joins on the 
 
 Akidau, T., Bradshaw, R., Chambers, C., Chernyak, S., Fer Andez-Moctezuma, R. J., Lax, R., … Google, S. W. (2015). The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing. Vldb, 8(12), 1792–1803. https://doi.org/10.14778/2824032.2824076
 
-Koliousis, A., Weidlich, M., Fernandez, R. C., Wolf, A. L., Costa, P., & Pietzuch, P. R. (2016). SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures. Sigmod.
+Koliousis, A., Weidlich, M., Castro Fernandez, R., Wolf, A. L., Costa, P., & Pietzuch, P. (2016). SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures. In Proceedings of the 2016 International Conference on Management of Data - SIGMOD ’16 (pp. 555–569). New York, New York, USA: ACM Press. https://doi.org/10.1145/2882903.2882906
