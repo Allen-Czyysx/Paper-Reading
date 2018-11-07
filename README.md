@@ -22,7 +22,7 @@ Haynes, B., Mazumdar, A., Alaghi, A., Balazinska, M., Ceze, L., & Cheung, A. (20
 
 Toshniwal, A., Donham, J., Bhagat, N., Mittal, S., Ryaboy, D., Taneja, S., … Fu, M. (2014). Storm@twitter. Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data - SIGMOD ’14, 147–156. https://doi.org/10.1145/2588555.2595641
 
-Carbone, P., Ewen, S., Haridi, S., Katsifodimos, A., Markl, V., & Tzoumas, K. (2015). Apache Flink: Unified Stream and Batch Processing in a Single Engine. Data Engineering, 36, 28–38. https://doi.org/10.1109/IC2EW.2016.56
+Carbone, P., Ewen, S., Haridi, S., Katsifodimos, A., Markl, V., & Tzoumas, K. (2015). Apache Flink: Stream and Batch Processing in a Single Engine. Data Engineering, 36, 28–38. https://doi.org/10.1109/IC2EW.2016.56
 
 ## 2018.10.15
 Jacques-Silva, G., Lei, R., Cheng, L., Jerry Chen, G., Ching, K., Hu, T., … Jaiswal, A. (2018). Providing Streaming Joins as a Service at Facebook. Providing Streaming Joins as a Service at Facebook. PVLDB, 11(12), 1809–1821. https://doi.org/10.14778/3229863.3229869
