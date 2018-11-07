@@ -1,6 +1,8 @@
 # Paper-Reading
 ## 2018.11.8
-Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., … Zheng, X. (2016). TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems. Network: Computation in Neural Systems, 16(2–3), 121–138.
+Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., … Zheng, X. (2016). TensorFlow: A system for large-scale machine learning. Methods in Enzymology, 101(C), 582–598. Retrieved from http://arxiv.org/abs/1605.08695
+
+Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., … Zheng, X. (2016). TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems. Network: Computation in Neural Systems, 16(2–3), 121–138. Retrieved from http://arxiv.org/abs/1603.04467
 
 ## 2018.11.2
 Zaharia, M., Chowdhury, M., Das, T., Dave, A., Ma, J., Mccauley, M., … Stoica, I. (2012). Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing. https://doi.org/10.1111/j.1095-8649.2005.00662.x
