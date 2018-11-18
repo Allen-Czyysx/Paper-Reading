@@ -1,4 +1,10 @@
 # Paper-Reading
+## 2018.11.22
+Burrows, M. (2006). The Chubby lock service for loosely-coupled distributed systems. Proceedings of the Symposium on Operating System Design and Implementation, 335–350. Retrieved from citeulike-article-id:6502774%5Cnhttp://portal.acm.org/citation.cfm?id=1298487
+
+## 2018.11.15
+Hunt, P., Konar, M., Junqueira, F. P., & Reed, B. (n.d.). ZooKeeper: Wait-free coordination for Internet-scale systems.
+
 ## 2018.11.8
 Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., … Zheng, X. (2016). TensorFlow: A system for large-scale machine learning. Methods in Enzymology, 101(C), 582–598. Retrieved from http://arxiv.org/abs/1605.08695
 
