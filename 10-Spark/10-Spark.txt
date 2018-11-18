@@ -1,3 +1,5 @@
+// https://www.kancloud.cn/kancloud/spark-internals/45242
+
 问题: MapReduce系统无法再利用输出结果, 对需要迭代的ML算法和交互式数据挖掘应用不友好. 故提出Spark, 在解决这些问题的同时, 维持可扩展和容错.
 
 RDD: 分布在集群上的只读数据块.
