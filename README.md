@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.11.22
+Kumar, A., Mccann, R., Naughton, J., & Patel, J. M. (2015). Model Selection Management Systems: The Next Frontier of Advanced Analytics. ACM SIGMOD Record, 44(4), 17–22. https://doi.org/10.1145/2935694.2935698
+
 Burrows, M. (2006). The Chubby lock service for loosely-coupled distributed systems. Proceedings of the Symposium on Operating System Design and Implementation, 335–350.
 
 ## 2018.11.15
