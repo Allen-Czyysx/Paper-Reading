@@ -1,0 +1,21 @@
+目标: 数据分析的前置工作占用了大量时间 (数据分析师需要不断重复调整MST, 并辗转于各种系统和平台), 故提出一个抽象框架model selection management systems (MSMS) 来达到自动化和end-to-end的效果.
+
+Model selection triple (MST):
+	1 Feature engineering: 选择数据特征.
+	2 Algorithm selection: 选择算法模型.
+	3 Parameter tuning: 调参.
+
+人工迭代:
+	1 准备: 人工确定MST.
+	2 执行: 根据MST执行 (基于某个数据管理平台, 如Spark).
+	3 分析: 根据结果人工调整MST, 再开始一轮迭代; 或结束迭代.
+
+MSMS迭代:
+	1 准备: 用户向MSMS声明逻辑相关的MST, MSMS将声明转换为低级语言.
+	2 执行: MSMS优化执行过程 (如共享MSTs公共的计算结果).
+	3 分析: MSMS提供provenance管理.
+
+挑战, trade-offs:
+	1 用户接口: 确定primitive, 需要预定义一些来表示常用操作 (如FE中的join和标准化, AS和PT中流行的组合和参数搜索启发式方法); 也需要能让用户自定义功能的.
+	2 执行优化: 避免冗余, 多MST(如保证单调时决策树在不同高度下的生成, 不同线性模型共享计算) 和单MST (如结合FS中的join与AS的线性模型可避免大量denormalization); 在精确性和效率之间作取舍.
+	3 Provenance管理: MST信息存储 (全部存不实际) 和自动分析; 迭代之间重用.
