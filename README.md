@@ -1,4 +1,7 @@
 # Paper-Reading
+## 2018.11.29
+Boehm, M., Surve, A. C., Tatikonda, S., Dusenberry, M. W., Eriksson, D., Evfimievski, A. V., … Sen, P. (2016). SystemML: Declarative Machine Learning on Spark. Vldb’16, 9(13), 1425–1436. https://doi.org/10.14778/3007263.3007279
+
 ## 2018.11.22
 Kumar Vavilapalli, V., Murthy, A. C., Douglas, C., Agarwal, S., Konar, M., Evans, R., … Baldeschwieler, E. (2013). Apache Hadoop YARN: Yet Another Resource Negotiator. In Proceedings of the 4th Annual Symposium on Cloud Computing (p. 5). ACM, 13, 1–3. https://doi.org/10.1145/2523616.2523633
 
