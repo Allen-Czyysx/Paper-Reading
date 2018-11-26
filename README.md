@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.11.29
+Carbone, P., Ewen, S., Fóra, G., Haridi, S., Richter, S., & Tzoumas, K. (2017). State Management in Apache Flink®: Consistent Stateful Distributed Stream Processing. Proceedings of the VLDB Endowment, 10(12), 1718–1729. https://doi.org/10.14778/3137765.3137777
+
 Boehm, M., Surve, A. C., Tatikonda, S., Dusenberry, M. W., Eriksson, D., Evfimievski, A. V., … Sen, P. (2016). SystemML: Declarative Machine Learning on Spark. Vldb’16, 9(13), 1425–1436. https://doi.org/10.14778/3007263.3007279
 
 ## 2018.11.22
