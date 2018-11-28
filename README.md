@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2018.11.29
+Böse, J.-H., Flunkert, V., Gasthaus, J., Januschowski, T., Lange, D., Salinas, D., … Wang, Y. (2017). Probabilistic demand forecasting at scale. Proceedings of the VLDB Endowment, 10(12), 1694–1705. https://doi.org/10.14778/3137765.3137775
+
 Hasani, S., Thirumuruganathan, S., Asudeh, A., Koudas, N., & Das, G. (2018). Efficient Construction of Approximate Ad-Hoc ML models Through Materialization and Reuse. Pvldb, 11(11), 1468–1481. https://doi.org/10.14778/3236187.3236199
 
 Carbone, P., Ewen, S., Fóra, G., Haridi, S., Richter, S., & Tzoumas, K. (2017). State Management in Apache Flink®: Consistent Stateful Distributed Stream Processing. Proceedings of the VLDB Endowment, 10(12), 1718–1729. https://doi.org/10.14778/3137765.3137777
