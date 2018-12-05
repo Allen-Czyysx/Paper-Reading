@@ -1,4 +1,7 @@
 # Paper-Reading
+## 2018.12.6
+Li, J., Tseng, H.-W., Lin, C., Papakonstantinou, Y., & Swanson, S. (2016). HippogriffDB: Balancing I/O and GPU Bandwidth in Big Data Analytics. Proceedings of the VLDB Endowment, 9(14), 1647–1658. https://doi.org/10.14778/3007328.3007331
+
 ## 2018.11.29
 Böse, J.-H., Flunkert, V., Gasthaus, J., Januschowski, T., Lange, D., Salinas, D., … Wang, Y. (2017). Probabilistic demand forecasting at scale. Proceedings of the VLDB Endowment, 10(12), 1694–1705. https://doi.org/10.14778/3137765.3137775
 
