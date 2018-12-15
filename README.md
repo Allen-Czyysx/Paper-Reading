@@ -1,4 +1,10 @@
 # Paper-Reading
+## 2018.12.20
+Yang, H., Dasdan, A., Hsiao, R.-L., & Parker, D. S. (2007). Map-Reduce-Merge: Simplified Relational Data Processing on Large Clusters. In Proceedings of the 2007 ACM SIGMOD international conference on Management of data - SIGMOD ’07 (p. 1029). New York, New York, USA: ACM Press. https://doi.org/10.1145/1247480.1247602
+
+## 2018.12.13
+Malewicz, G., Austern, M. H., Bik, A. J. ., Dehnert, J. C., Horn, I., Leiser, N., & Czajkowski, G. (2010). Pregel: A System for Large-Scale Graph Processing. Proceedings of the 2010 International Conference on Management of Data - SIGMOD ’10, 135. https://doi.org/10.1145/1807167.1807184
+
 ## 2018.12.6
 Li, J., Tseng, H.-W., Lin, C., Papakonstantinou, Y., & Swanson, S. (2016). HippogriffDB: Balancing I/O and GPU Bandwidth in Big Data Analytics. Proceedings of the VLDB Endowment, 9(14), 1647–1658. https://doi.org/10.14778/3007328.3007331
 
