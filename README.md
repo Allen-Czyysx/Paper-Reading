@@ -2,6 +2,8 @@
 ## 2018.12.20
 Yang, H., Dasdan, A., Hsiao, R.-L., & Parker, D. S. (2007). Map-Reduce-Merge: Simplified Relational Data Processing on Large Clusters. In Proceedings of the 2007 ACM SIGMOD international conference on Management of data - SIGMOD ’07 (p. 1029). New York, New York, USA: ACM Press. https://doi.org/10.1145/1247480.1247602
 
+Yu, L., Shao, Y., & Cui, B. (2015). Exploiting Matrix Dependency for Efficient Distributed Matrix Computation. Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data - SIGMOD ’15, 93–105. https://doi.org/10.1145/2723372.2723712
+
 ## 2018.12.13
 Malewicz, G., Austern, M. H., Bik, A. J. ., Dehnert, J. C., Horn, I., Leiser, N., & Czajkowski, G. (2010). Pregel: A System for Large-Scale Graph Processing. Proceedings of the 2010 International Conference on Management of Data - SIGMOD ’10, 135. https://doi.org/10.1145/1807167.1807184
 
