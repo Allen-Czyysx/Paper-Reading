@@ -1,4 +1,7 @@
 # Paper-Reading
+## 2018.1.24
+Li, M. (2014). Scaling Distributed Machine Learning with the Parameter Server. In Proceedings of the 2014 International Conference on Big Data Science and Computing - BigDataScience ’14. https://doi.org/10.1145/2640087.2644155
+
 ## 2018.12.27
 Isard, M., Budiu, M., Yu, Y., Birrell, A., & Fetterly, D. (2007). Dryad: Distributed Data-Parallel Programs from Sequential Building Blocks. ACM SIGOPS Operating Systems Review, 41(3), 59. https://doi.org/10.1145/1272998.1273005
 
