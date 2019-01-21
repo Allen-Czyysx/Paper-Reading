@@ -1,3 +1,5 @@
+// http://systemdesigns.blogspot.com/2016/01/chubby-lock-service_10.html
+
 目标: 向分布式系统提供粗粒度锁 (锁的持续时间以小时为单位) 服务和一个小容量的文件系统, 注重高可用高可靠而非高性能.
 
 要求:
