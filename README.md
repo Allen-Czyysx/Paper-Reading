@@ -1,5 +1,7 @@
 # Paper-Reading
 ## 2019.2.14
+Venkataraman, S., Yang, Z., Liu, D., Liang, E., Meng, X., Xin, R., … Zaharia, M. (2016). SparkR: Scaling R Programs with Spark. Sigmod, 4. https://doi.org/10.1145/1235
+
 Kumar, A., Boehm, M., & Yang, J. (2017). Data Management in Machine Learning. Proceedings of the 2017 ACM International Conference on Management of Data  - SIGMOD ’17, (Section 4), 1717–1722. https://doi.org/10.1145/3035918.3054775
 
 ## 2019.1.24
