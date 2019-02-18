@@ -2,7 +2,7 @@
 ## 2019.2.21
 Boehm, M., Burdick, D. R., Evfimievski, A. V, Reinwald, B., Reiss, F. R., Sen, P., … Tian, Y. (2014). SystemML’s Optimizer: Plan Generation for Large-Scale Machine Learning Programs. Bulletin of the IEEE Computer Society Technical Committee on Data Engineering, 52–62.
 
-Ewen, S., Tzoumas, K., Kaufmann, M., & Markl, V. (2012). Spinning Fast Iterative Data Flows, 5(11), 1268–1279.
+Ewen, S., Tzoumas, K., Kaufmann, M., & Markl, V. (2012). Spinning Fast Iterative Data Flows, 5(11), 1268–1279. https://doi.org/10.14778/2350229.2350245
 
 ## 2019.2.14
 Ousterhout, K., Rasti, R., Ratnasamy, S., Shenker, S., & Chun, B.-G. (2015). Making Sense of Performance in Data Analytics Frameworks. (NSDI ’15).
