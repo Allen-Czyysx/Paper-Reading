@@ -1,4 +1,8 @@
 # Paper-Reading
+
+## 2019.2.28
+Armbrust, M., Das, T., Torres, J., Yavuz, B., Zhu, S., Xin, R., … Zaharia, M. (2018). Structured Streaming: A Declarative API for Real-Time Applications in Apache Spark. In Proceedings of the 2018 International Conference on Management of Data - SIGMOD ’18 (pp. 601–613). New York, New York, USA: ACM Press. https://doi.org/10.1145/3183713.3190664
+
 ## 2019.2.21
 Boehm, M., Burdick, D. R., Evfimievski, A. V, Reinwald, B., Reiss, F. R., Sen, P., … Tian, Y. (2014). SystemML’s Optimizer: Plan Generation for Large-Scale Machine Learning Programs. Bulletin of the IEEE Computer Society Technical Committee on Data Engineering, 52–62.
 
